@@ -1,8 +1,9 @@
 #https://docs.docker.com/reference/dockerfile/    READ Please
 
-#Download centos 7
-FROM centos:7
+#Download ubuntu 20.04
+FROM ubuntu:20.04
 
 # install telnet
-RUN yum install telnet -y
+RUN apt-get update -y
+RUN apt-get install telnet -y
 
