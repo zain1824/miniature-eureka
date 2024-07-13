@@ -17,3 +17,13 @@ RUN     DEBIAN_FRONTEND=noninteractive  apt-get update -y           &&  \
 
 # Open port 80 on container
 EXPOSE 80
+
+<<<<<<< HEAD
+
+# Run command 
+CMD ["apache2ctl", "-D", "FOREGROUND"]
+
+
+
+=======
+>>>>>>> 7c6c292cd753540c069eecfa9741d41d918dfb8
